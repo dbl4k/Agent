@@ -1,6 +1,6 @@
 ﻿Imports Agent.Common
 
-Module Module1
+Module Shell
 
     Private m_agentTaskAssemblies As Specialized.StringCollection = My.Settings.AgentTaskAssemblies
 

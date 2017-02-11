@@ -1,4 +1,4 @@
-﻿Public Enum ParameterType
+﻿Public Enum Requirement
     [Optional]
     [Mandatory]
 End Enum

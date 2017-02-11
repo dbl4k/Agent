@@ -1,4 +1,12 @@
-﻿Public Class CleanupOldDirs : Inherits Common.AgentTask
+﻿Imports Agent.Common
+
+Public Class CleanupOldDirs : Inherits Common.AgentTask
+
+    <TaskParameter(Requirement.Mandatory, "C:\boom")>
+    Public Property DirRoot As String
+
+    <TaskParameter(Requirement.Optional, False)>
+    Public Property Recursive As String
 
     Public Overrides Sub Run()
         Console.WriteLine("Cleaning up old Dirs")

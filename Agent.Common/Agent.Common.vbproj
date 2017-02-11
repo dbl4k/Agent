@@ -63,9 +63,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attributes\ParameterAttribute.vb" />
+    <Compile Include="Attributes\TaskParameterAttribute.vb" />
     <Compile Include="Base\AgentTask.vb" />
-    <Compile Include="Enums\ParameterType.vb" />
+    <Compile Include="Enums\Requirement.vb" />
     <Compile Include="Exceptions\InvalidAgentTaskNameException.vb" />
     <Compile Include="Exceptions\TaskParameterException.vb" />
     <Compile Include="Helpers\Utilities.vb" />

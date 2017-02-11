@@ -4,6 +4,10 @@ Public MustInherit Class AgentTask : Implements IAgentTask
 
     Private Property m_errorList As New List(Of AgentTaskError)
 
+    Public Sub AssignParameters() Implements IAgentTask.AssignParameters
+        ' Read values in from commentline params and assign them to properties marked as <TaskParameter>
+    End Sub
+
     Public MustOverride Sub Run() Implements IAgentTask.Run
 
 #Region "Error Recording / Retrieval"

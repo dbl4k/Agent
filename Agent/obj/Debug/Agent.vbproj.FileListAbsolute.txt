@@ -1,0 +1,1 @@
+c:\users\andre\documents\visual studio 2015\Projects\Agent\Agent\bin\Debug\Agent.exe.config

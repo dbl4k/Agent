@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+*.exe
+/Agent/obj/Debug
+/Agent.Common/obj/Debug
+/Agent.Common
+/Agent/bin/Debug
+/Agent.Tasks/obj/Debug
+/Agent.Tasks
+/Agent

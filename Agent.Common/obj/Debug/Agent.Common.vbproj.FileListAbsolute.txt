@@ -1,9 +1,0 @@
-C:\Users\andre\Source\Repos\Agent\Agent.Common\bin\Debug\Agent.Common.dll
-C:\Users\andre\Source\Repos\Agent\Agent.Common\bin\Debug\Agent.Common.pdb
-C:\Users\andre\Source\Repos\Agent\Agent.Common\bin\Debug\Agent.Common.xml
-C:\Users\andre\Source\Repos\Agent\Agent.Common\obj\Debug\Agent.Common.Resources.resources
-C:\Users\andre\Source\Repos\Agent\Agent.Common\obj\Debug\Agent.Common.vbproj.GenerateResource.Cache
-C:\Users\andre\Source\Repos\Agent\Agent.Common\obj\Debug\Agent.Common.dll
-C:\Users\andre\Source\Repos\Agent\Agent.Common\obj\Debug\Agent.Common.xml
-C:\Users\andre\Source\Repos\Agent\Agent.Common\obj\Debug\Agent.Common.pdb
-C:\Users\andre\Source\Repos\Agent\Agent.Common\obj\Debug\Agent.Common.vbprojResolveAssemblyReference.cache

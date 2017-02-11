@@ -66,7 +66,11 @@
     <Compile Include="Attributes\ParameterAttribute.vb" />
     <Compile Include="Base\AgentTask.vb" />
     <Compile Include="Enums\ParameterType.vb" />
+    <Compile Include="Exceptions\InvalidAgentTaskNameException.vb" />
+    <Compile Include="Exceptions\TaskParameterException.vb" />
+    <Compile Include="Helpers\Utilities.vb" />
     <Compile Include="Interfaces\IAgentTask.vb" />
+    <Compile Include="Messages.vb" />
     <Compile Include="Models\AgentTaskError.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

@@ -1,1 +1,17 @@
 c:\users\andre\documents\visual studio 2015\Projects\Agent\Agent\bin\Debug\Agent.exe.config
+C:\Users\andre\Source\Repos\Agent\Agent\bin\Debug\Agent.exe.config
+C:\Users\andre\Source\Repos\Agent\Agent\bin\Debug\Agent.exe
+C:\Users\andre\Source\Repos\Agent\Agent\bin\Debug\Agent.pdb
+C:\Users\andre\Source\Repos\Agent\Agent\bin\Debug\Agent.xml
+C:\Users\andre\Source\Repos\Agent\Agent\bin\Debug\Agent.Common.dll
+C:\Users\andre\Source\Repos\Agent\Agent\bin\Debug\Agent.Tasks.dll
+C:\Users\andre\Source\Repos\Agent\Agent\bin\Debug\Agent.Common.pdb
+C:\Users\andre\Source\Repos\Agent\Agent\bin\Debug\Agent.Common.xml
+C:\Users\andre\Source\Repos\Agent\Agent\bin\Debug\Agent.Tasks.pdb
+C:\Users\andre\Source\Repos\Agent\Agent\bin\Debug\Agent.Tasks.xml
+C:\Users\andre\Source\Repos\Agent\Agent\obj\Debug\Agent.vbprojResolveAssemblyReference.cache
+C:\Users\andre\Source\Repos\Agent\Agent\obj\Debug\Agent.Resources.resources
+C:\Users\andre\Source\Repos\Agent\Agent\obj\Debug\Agent.vbproj.GenerateResource.Cache
+C:\Users\andre\Source\Repos\Agent\Agent\obj\Debug\Agent.exe
+C:\Users\andre\Source\Repos\Agent\Agent\obj\Debug\Agent.xml
+C:\Users\andre\Source\Repos\Agent\Agent\obj\Debug\Agent.pdb

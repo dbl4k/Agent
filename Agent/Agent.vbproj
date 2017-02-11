@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{635DBE5B-380E-4C40-BFB7-ECB21188D8D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Agent.Module1</StartupObject>
+    <StartupObject>Agent.Shell</StartupObject>
     <RootNamespace>Agent</RootNamespace>
     <AssemblyName>Agent</AssemblyName>
     <FileAlignment>512</FileAlignment>

@@ -9,7 +9,7 @@ Public Class AgentTaskError : Implements IComparable(Of AgentTaskError)
 #Region "IComparable Implementation"
 
     Private Function IComparable_CompareTo(other As AgentTaskError) As Integer Implements IComparable(Of AgentTaskError).CompareTo
-        Return Me.Timestamp.CompareTo(other)
+        Return Me.Timestamp.CompareTo(other.Timestamp)
     End Function
 
 #End Region

@@ -1,4 +1,5 @@
 # Agent
+
 A basic starting framework for creating a tailorable, parameterized agent collection in a single console executable.
 
 ## Usage
@@ -30,5 +31,7 @@ Agent.exe Agent.Tasks.CleanupOldDirs
 ~~~
 
 .. more coming, that's all for now. :)
+
+Oh and it's written in in VB.NET... because this is a judgement free zone ;D
 
 - dbl4k 2017

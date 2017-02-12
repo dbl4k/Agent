@@ -5,6 +5,10 @@ Module Shell
     Private m_agentTaskAssemblies As Specialized.StringCollection = My.Settings.AgentTaskAssemblies
 
     Sub Main()
+        Dim params As AgentTaskRuntimeParameters = AgentTaskRuntimeParametersFactory.Create(My.Application.CommandLineArgs)
+
+        AgentTaskFactory.Instantiate(params)
+
         ' TODO Read commandline params in to determine agent name.
         Dim agentTaskType = findAgentTaskTypeByName("Agent.Tasks.CleanupOldDirs44")
         Console.WriteLine(String.Format(Messages.E_FINDTASK_FOUNDTASK, agentTaskType.FullName))

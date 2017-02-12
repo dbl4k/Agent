@@ -16,10 +16,10 @@
 
         Dim agentTasks = getAllAvailableAgentTasks(agentTaskAssemblies)
 
-        Dim absoluteMatch As Type = agentTasks.Find(Function(n) n.FullName.ToLower = agentTaskName.ToLower)
+        Dim absoluteMatch As Type = getAgentTaskTypeByAbsoluteMatch(agentTaskName, agentTasks)
 
         If absoluteMatch Is Nothing Then
-            Dim partialMatches As List(Of Type) = agentTasks.Where(Function(n) n.Name.ToLower = agentTaskName.ToLower).ToList
+            Dim partialMatches As List(Of Type) = getAgentTaskTypeByPartialMatch(agentTaskName, agentTasks)
 
             ' If we're partial matching, we need exactly one result.
             If partialMatches Is Nothing OrElse partialMatches.Count = 0 Then
@@ -41,6 +41,14 @@
 
     Private Shared Function getAllAvailableAgentTasks(agentTaskAssemblies As String()) As List(Of Type)
         Return Utilities.GetAgentTaskList(agentTaskAssemblies)
+    End Function
+
+    Private Shared Function getAgentTaskTypeByAbsoluteMatch(fullName As String, agentTasks As List(Of Type)) As Type
+        Return agentTasks.Find(Function(n) n.FullName.ToLower = fullName.ToLower)
+    End Function
+
+    Private Shared Function getAgentTaskTypeByPartialMatch(partialName As String, agentTasks As List(Of Type)) As List(Of Type)
+        Return agentTasks.Where(Function(n) n.Name.ToLower = partialName.ToLower).ToList
     End Function
 
 End Class

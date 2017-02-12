@@ -29,7 +29,6 @@ If using multiple task assemblies, or even duplicated task names in different na
 Agent.exe Agent.Tasks.CleanupOldDirs
 ~~~
 
-
 .. more coming, that's all for now. :)
 
-- dbl4k 20017
+- dbl4k 2017

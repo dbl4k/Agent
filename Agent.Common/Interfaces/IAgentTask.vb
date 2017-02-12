@@ -6,6 +6,6 @@
 
     Sub Execute()
 
-    Function GetErrorList() As List(Of AgentTaskError)
+    Function GetErrorList(Optional applySort As Boolean = True) As List(Of AgentTaskError)
 
 End Interface

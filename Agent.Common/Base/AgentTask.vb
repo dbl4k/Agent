@@ -36,8 +36,11 @@ Public MustInherit Class AgentTask : Implements IAgentTask
                       })
     End Sub
 
-    Public Function GetErrorList() As List(Of AgentTaskError) Implements IAgentTask.GetErrorList
-        m_errorList.Sort()
+    Public Function GetErrorList(Optional applySort As Boolean = True) As List(Of AgentTaskError) Implements IAgentTask.GetErrorList
+        If applySort Then
+            m_errorList.Sort()
+        End If
+
         Return m_errorList
     End Function
 

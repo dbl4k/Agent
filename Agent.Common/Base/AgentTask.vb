@@ -4,11 +4,19 @@ Public MustInherit Class AgentTask : Implements IAgentTask
 
     Private Property m_errorList As New List(Of AgentTaskError)
 
-    Public Sub AssignParameters() Implements IAgentTask.AssignParameters
+    Public Sub AssignParameters(params As AgentTaskRuntimeParameters) Implements IAgentTask.AssignParameters
         ' Read values in from commentline params and assign them to properties marked as <TaskParameter>
     End Sub
 
-    Public MustOverride Sub Run() Implements IAgentTask.Run
+    Private Sub Execute() Implements IAgentTask.Execute
+        Try
+            Run()
+        Catch ex As Exception
+            RecordError(New Exception(String.Format(Messages.E_FATALUNHANDLED, Me.GetType.FullName), ex))
+        End Try
+    End Sub
+
+    Protected MustOverride Sub Run() Implements IAgentTask.Run
 
 #Region "Error Recording / Retrieval"
 
@@ -28,11 +36,12 @@ Public MustInherit Class AgentTask : Implements IAgentTask
                       })
     End Sub
 
-    Public Function GetErrorList()
+    Public Function GetErrorList() As List(Of AgentTaskError) Implements IAgentTask.GetErrorList
         m_errorList.Sort()
         Return m_errorList
     End Function
 
 #End Region
+
 
 End Class

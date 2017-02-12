@@ -8,7 +8,7 @@ Public Class CleanupOldDirs : Inherits Common.AgentTask
     <TaskParameter(Requirement.Optional, False)>
     Public Property Recursive As String
 
-    Public Overrides Sub Run()
+    Protected Overrides Sub Run()
         Console.WriteLine("Cleaning up old Dirs")
 
         System.Threading.Thread.Sleep(TimeSpan.FromSeconds(2).TotalMilliseconds)
